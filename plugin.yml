@@ -1,0 +1,22 @@
+---
+name: SizeUI
+main: cuzimrealy\SizeUI\SizeUIMainClass
+version: 0.0.4
+api:
+- 3.1.0
+author: cuzimrealy
+description: Plugin SizeUI for PocketMine-MP!
+commands:
+  size:
+    description: Open SizeUI!
+    usage: /size
+    permission: sizeui.use
+permissions:
+  sizeui:
+    default: op
+    description: Permission of SizeUI
+    children:
+      sizeui.use:
+        default: op
+        description: Allows the use of /size
+...
